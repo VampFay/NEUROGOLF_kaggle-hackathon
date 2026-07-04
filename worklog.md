@@ -267,3 +267,19 @@ Tasks: 3, 10, 15, 40, 45, 47, 49 (verified on ALL pairs)
 The approach continues to work: analyze → write solver → verify → fix → verify.
 Each batch yields ~7 verified solvers.
 Remaining: ~370 tasks × ~7/batch = ~53 more batches.
+
+---
+Task ID: 16 (batch 6)
+Agent: main
+
+Batch 6 results — 5 new verified solvers:
+- Task 28: Marker creates rectangular frame sections ✓
+- Task 32: Stack non-zero values to bottom of each column ✓
+- Task 35: Marker color propagates to nearest 8-cell ✓
+- Task 41: Fill triangle between same-color markers ✓
+- Task 43: Copy row 0 pattern to marker rows ✓
+
+Near-miss: Task 34 (diagonal stripe, complex direction detection)
+
+TOTAL verified Python solvers: 12 tasks
+Tasks: 3, 10, 15, 28, 32, 35, 40, 41, 43, 45, 47, 49
