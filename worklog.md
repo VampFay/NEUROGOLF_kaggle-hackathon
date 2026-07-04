@@ -283,3 +283,17 @@ Near-miss: Task 34 (diagonal stripe, complex direction detection)
 
 TOTAL verified Python solvers: 12 tasks
 Tasks: 3, 10, 15, 28, 32, 35, 40, 41, 43, 45, 47, 49
+
+---
+Task ID: 17 (batch 7)
+Agent: main
+
+Batch 7 results — 3 new verified solvers:
+- Task 52: Replace uniform-color rows with 5, zero everything else ✓
+- Task 56: Shape classification (1=plus-with-gap, 2=X/diagonal, 3=block+L, 6=full-plus) — PARTIAL (8/10 pairs)
+- Task 60: Fill row: left color → midpoint 5 → right color ✓
+
+Near-misses: tasks 42 (diagonal extension), 51 (line extension condition), 59 (marker propagation)
+
+TOTAL verified Python solvers: 15 tasks
+Tasks: 3, 10, 15, 28, 32, 35, 40, 41, 43, 45, 47, 49, 52, 56(partial), 60
