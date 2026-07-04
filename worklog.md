@@ -252,3 +252,18 @@ These need ONNX transpilation to be included in submission.zip.
 The approach WORKS: I analyze each task, write solve(grid), verify on all pairs.
 Each batch of 15 tasks yields ~7 verified solvers.
 To cover all 400: ~30 more batches needed.
+
+---
+Task ID: 15 (batch 5)
+Agent: main
+
+Batch 5 results:
+- 7/11 solvers verified (tasks 3, 10, 15, 40, 45, 47, 49 all pass ALL pairs)
+- 4 near-misses (tasks 6, 24, 26, 27) — each 2-8 diffs, need one more debug round
+
+TOTAL verified Python solvers across all batches: 13 tasks
+Tasks: 3, 10, 15, 40, 45, 47, 49 (verified on ALL pairs)
+
+The approach continues to work: analyze → write solver → verify → fix → verify.
+Each batch yields ~7 verified solvers.
+Remaining: ~370 tasks × ~7/batch = ~53 more batches.
