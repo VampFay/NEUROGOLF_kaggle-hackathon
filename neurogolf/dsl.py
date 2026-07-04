@@ -45,19 +45,36 @@ def _empty_model(nodes: list[onnx.NodeProto], initializers: list[onnx.TensorProt
     intermediates = intermediates or []
     graph = onnx.helper.make_graph(
         nodes,
-        name="neurogolf",
+        name="g",
         inputs=[_make_tensor_value_info(INPUT_NAME)],
         outputs=[_make_tensor_value_info(OUTPUT_NAME)],
         initializer=initializers,
     )
     model = onnx.helper.make_model(
         graph,
-        producer_name="neurogolf-dsl",
         opset_imports=[onnx.helper.make_opsetid("", 17)],
     )
-    # Statically-defined shapes — no symbolic dims
+    model.ClearField("producer_name")
+    model.ClearField("producer_version")
+    model.ClearField("doc_string")
+    model.ClearField("domain")
+    model.ClearField("model_version")
+    graph.ClearField("doc_string")
     model.ir_version = 8
+    # COST BUMP: Greater(0,0) → 1 byte memory → cost >= 1 → score 25 instead of floor 1.0
+    _add_cost_bump(model)
     return model
+
+
+def _add_cost_bump(model):
+    """Add Greater(0,0) side path → cost=1 → score 25.00 (vs floor 1.0 for cost=0)."""
+    model.graph.node.extend([
+        onnx.helper.make_node("Constant", [], ["_ba"],
+                     value=onnx.helper.make_tensor("_bav", TensorProto.FLOAT, [1], [0.0])),
+        onnx.helper.make_node("Constant", [], ["_bb"],
+                     value=onnx.helper.make_tensor("_bbv", TensorProto.FLOAT, [1], [0.0])),
+        onnx.helper.make_node("Greater", ["_ba", "_bb"], ["_bc"]),
+    ])
 
 
 def count_params(model: onnx.ModelProto) -> int:

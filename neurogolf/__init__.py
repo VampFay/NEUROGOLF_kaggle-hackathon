@@ -1,2 +1,2 @@
-"""neurogolf package — minimal NeuroGolf pipeline."""
-from . import constants, arc_data, dsl, validator
+"""neurogolf package."""
+from . import constants, arc_data, dsl, validator, faithful_scorer

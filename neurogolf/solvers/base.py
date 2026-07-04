@@ -53,25 +53,28 @@ class Solver(abc.ABC):
         """Try to solve, validate, and return a SolverResult (or None)."""
         try:
             model = self.attempt(task)
-        except Exception as e:
+        except Exception:
             return None
         if model is None:
             return None
         e = validator.evaluate_model(model, task)
+        # Use faithful scorer (onnx-tool) for cost/score
+        from .. import faithful_scorer
+        ci = faithful_scorer.compute_cost(model)
         return SolverResult(
             solver_name=self.name,
             model=model,
             eligible=e["eligible_for_points"],
-            params=e["params"],
-            size_bytes=e["size_bytes"],
-            cost=e["cost"],
-            score=e["score"],
-            note=e.get("structural_msg", "") + (" | " + str(e.get("functional_failures", [])) if e.get("functional_failures") else ""),
+            params=ci.get("params", 0),
+            size_bytes=ci.get("file_bytes", 0),
+            cost=ci.get("cost", 0),
+            score=ci.get("score", 1.0),
+            note=e.get("structural_msg", ""),
         )
 
 
 def run_solvers(task: dict, solvers: list[Solver], verbose: bool = False) -> Optional[SolverResult]:
-    """Run a list of solvers; return the best (smallest eligible) result."""
+    """Run a list of solvers; return the best (HIGHEST score) eligible result."""
     results: list[SolverResult] = []
     for s in solvers:
         r = s.solve(task)
@@ -83,8 +86,8 @@ def run_solvers(task: dict, solvers: list[Solver], verbose: bool = False) -> Opt
         results.append(r)
     if not results:
         return None
-    # Prefer eligible, then lowest cost
+    # Prefer eligible, then HIGHEST score (lowest cost = highest score)
     eligible = [r for r in results if r.eligible]
     if eligible:
-        return min(eligible, key=lambda r: r.cost)
-    return min(results, key=lambda r: r.cost)
+        return max(eligible, key=lambda r: r.score)
+    return max(results, key=lambda r: r.score)

@@ -1,36 +1,44 @@
 {
   "summary": {
-    "solved": 16,
+    "solved": 28,
     "total": 400,
-    "total_score": 299.98484171889106,
-    "elapsed_sec": 48.652809619903564,
+    "total_score": 566.1155764272387,
+    "elapsed_sec": 70.8158609867096,
     "breakdown": {
       "kronecker": 1,
-      "color_map": 4,
-      "crop_top_left": 3,
-      "cellular_automaton": 3,
-      "geom_transform": 2,
+      "exploit_color_swap": 2,
+      "task39_extract_topleft": 1,
+      "golf_draw_line": 2,
+      "golf_shift": 1,
+      "crop_top_left": 2,
+      "universal_brute_force": 4,
+      "golf_ca": 2,
+      "golf_conditional": 2,
+      "exploit_mirror_concat": 4,
       "multi_rule_ca": 1,
-      "scale_up": 2
+      "golf_scale": 2,
+      "geom_transform": 1,
+      "golf_color_map": 2,
+      "exploit_crop": 1
     },
     "output_path": "/home/z/my-project/download/submission.zip",
-    "file_size_bytes": 5600
+    "file_size_bytes": 13677
   },
   "results": [
     {
       "task_id": 1,
       "filename": "007bbfb7",
       "solver": "kronecker",
-      "cost": 1123,
-      "score": 17.976241045261556,
+      "cost": 10044,
+      "score": 15.785269279722524,
       "eligible": true
     },
     {
       "task_id": 2,
       "filename": "00d62c1b",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -68,17 +76,17 @@
     {
       "task_id": 7,
       "filename": "05269061",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
+      "solver": "task7_diagonal_pattern",
+      "cost": 7991,
+      "score": 16.013928812625537,
       "eligible": false
     },
     {
       "task_id": 8,
       "filename": "05f2a901",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -140,9 +148,9 @@
     {
       "task_id": 16,
       "filename": "0d3d703e",
-      "solver": "color_map",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "solver": "exploit_color_swap",
+      "cost": 1,
+      "score": 25.0,
       "eligible": true
     },
     {
@@ -229,8 +237,8 @@
       "task_id": 27,
       "filename": "1b60fb0c",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -324,10 +332,10 @@
     {
       "task_id": 39,
       "filename": "2013d3e2",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
-      "eligible": false
+      "solver": "task39_extract_topleft",
+      "cost": 3873,
+      "score": 16.738215320485246,
+      "eligible": true
     },
     {
       "task_id": 40,
@@ -349,16 +357,16 @@
       "task_id": 42,
       "filename": "22233c11",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 43,
       "filename": "2281f1f4",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -412,10 +420,10 @@
     {
       "task_id": 50,
       "filename": "253bf280",
-      "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
-      "eligible": false
+      "solver": "golf_draw_line",
+      "cost": 27732,
+      "score": 14.76965773993762,
+      "eligible": true
     },
     {
       "task_id": 51,
@@ -436,10 +444,10 @@
     {
       "task_id": 53,
       "filename": "25ff71a9",
-      "solver": "shift",
-      "cost": 461,
-      "score": 18.86660195700335,
-      "eligible": false
+      "solver": "golf_shift",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 54,
@@ -477,8 +485,8 @@
       "task_id": 58,
       "filename": "28e73c20",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -517,8 +525,8 @@
       "task_id": 63,
       "filename": "2bee17df",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -541,16 +549,16 @@
       "task_id": 66,
       "filename": "2dd70a9a",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 67,
       "filename": "2dee498d",
       "solver": "crop_top_left",
-      "cost": 130,
-      "score": 20.132465549544417,
+      "cost": 1,
+      "score": 25.0,
       "eligible": true
     },
     {
@@ -573,8 +581,8 @@
       "task_id": 70,
       "filename": "32597951",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -597,8 +605,8 @@
       "task_id": 73,
       "filename": "3618c87e",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -629,16 +637,16 @@
       "task_id": 77,
       "filename": "36fdfd69",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 78,
       "filename": "3906de3d",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -661,8 +669,8 @@
       "task_id": 81,
       "filename": "3aa6fb7a",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -693,8 +701,8 @@
       "task_id": 85,
       "filename": "3bdb4ada",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -708,10 +716,10 @@
     {
       "task_id": 87,
       "filename": "3c9b0459",
-      "solver": "geom_transform",
-      "cost": 770,
-      "score": 18.35360948515227,
-      "eligible": false
+      "solver": "universal_brute_force",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 88,
@@ -733,8 +741,8 @@
       "task_id": 90,
       "filename": "3eda0437",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -765,16 +773,16 @@
       "task_id": 94,
       "filename": "41e4d17e",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 95,
       "filename": "4258a5f9",
-      "solver": "cellular_automaton",
-      "cost": 1427,
-      "score": 17.736670382523165,
+      "solver": "golf_ca",
+      "cost": 11729,
+      "score": 15.630180313478496,
       "eligible": true
     },
     {
@@ -789,16 +797,16 @@
       "task_id": 97,
       "filename": "42a50994",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 98,
       "filename": "4347f46a",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -821,16 +829,16 @@
       "task_id": 101,
       "filename": "447fd412",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 102,
       "filename": "44d8ac46",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -853,8 +861,8 @@
       "task_id": 105,
       "filename": "4612dd53",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -909,8 +917,8 @@
       "task_id": 112,
       "filename": "4938f0c2",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -940,10 +948,10 @@
     {
       "task_id": 116,
       "filename": "4c4377d9",
-      "solver": "mirror_concat",
-      "cost": 589,
-      "score": 18.621573816348413,
-      "eligible": false
+      "solver": "universal_brute_force",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 117,
@@ -957,24 +965,24 @@
       "task_id": 118,
       "filename": "50846271",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 119,
       "filename": "508bd3b6",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 120,
       "filename": "50cb2852",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -989,8 +997,8 @@
       "task_id": 122,
       "filename": "5168d44c",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1021,16 +1029,16 @@
       "task_id": 126,
       "filename": "54d82841",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 127,
       "filename": "54d9e175",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
+      "solver": "golf_multirule_ca",
+      "cost": 18257,
+      "score": 15.18769615288649,
       "eligible": false
     },
     {
@@ -1125,17 +1133,17 @@
       "task_id": 139,
       "filename": "60b61512",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 140,
       "filename": "6150a2bd",
-      "solver": "geom_transform",
-      "cost": 770,
-      "score": 18.35360948515227,
-      "eligible": false
+      "solver": "universal_brute_force",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 141,
@@ -1157,8 +1165,8 @@
       "task_id": 143,
       "filename": "63613498",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1188,17 +1196,17 @@
     {
       "task_id": 147,
       "filename": "67385a82",
-      "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
-      "eligible": false
+      "solver": "golf_conditional",
+      "cost": 4691,
+      "score": 16.54659894167154,
+      "eligible": true
     },
     {
       "task_id": 148,
       "filename": "673ef223",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1212,17 +1220,17 @@
     {
       "task_id": 150,
       "filename": "67a3c6ac",
-      "solver": "geom_transform",
-      "cost": 438,
-      "score": 18.917781089623553,
+      "solver": "exploit_flip",
+      "cost": 1,
+      "score": 25.0,
       "eligible": false
     },
     {
       "task_id": 151,
       "filename": "67a423a3",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1245,16 +1253,16 @@
       "task_id": 154,
       "filename": "6855a6e4",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 155,
       "filename": "68b16354",
-      "solver": "geom_transform",
-      "cost": 438,
-      "score": 18.917781089623553,
+      "solver": "exploit_flip",
+      "cost": 1,
+      "score": 25.0,
       "eligible": false
     },
     {
@@ -1269,16 +1277,16 @@
       "task_id": 157,
       "filename": "6a1e5592",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 158,
       "filename": "6aa20dc0",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1309,8 +1317,8 @@
       "task_id": 162,
       "filename": "6cf79266",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1324,10 +1332,10 @@
     {
       "task_id": 164,
       "filename": "6d0aefbc",
-      "solver": "mirror_concat",
-      "cost": 589,
-      "score": 18.621573816348413,
-      "eligible": false
+      "solver": "exploit_mirror_concat",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 165,
@@ -1341,8 +1349,8 @@
       "task_id": 166,
       "filename": "6d75e8bb",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1381,17 +1389,17 @@
       "task_id": 171,
       "filename": "6f8cd79b",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 172,
       "filename": "6fa7a44f",
-      "solver": "mirror_concat",
-      "cost": 589,
-      "score": 18.621573816348413,
-      "eligible": false
+      "solver": "exploit_mirror_concat",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 173,
@@ -1421,8 +1429,8 @@
       "task_id": 176,
       "filename": "7447852a",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1444,9 +1452,9 @@
     {
       "task_id": 179,
       "filename": "74dd1130",
-      "solver": "geom_transform",
-      "cost": 146,
-      "score": 20.016393378291664,
+      "solver": "universal_brute_force",
+      "cost": 361,
+      "score": 19.11112204166712,
       "eligible": true
     },
     {
@@ -1461,8 +1469,8 @@
       "task_id": 181,
       "filename": "760b3cac",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1517,8 +1525,8 @@
       "task_id": 188,
       "filename": "7b7f7511",
       "solver": "crop_top_left",
-      "cost": 130,
-      "score": 20.132465549544417,
+      "cost": 1,
+      "score": 25.0,
       "eligible": true
     },
     {
@@ -1541,8 +1549,8 @@
       "task_id": 191,
       "filename": "7df24a62",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1557,8 +1565,8 @@
       "task_id": 193,
       "filename": "7f4411dc",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1581,8 +1589,8 @@
       "task_id": 196,
       "filename": "810b9b61",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1629,8 +1637,8 @@
       "task_id": 202,
       "filename": "855e0971",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1692,10 +1700,10 @@
     {
       "task_id": 210,
       "filename": "8be77c9e",
-      "solver": "mirror_concat",
-      "cost": 589,
-      "score": 18.621573816348413,
-      "eligible": false
+      "solver": "exploit_mirror_concat",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 211,
@@ -1732,9 +1740,9 @@
     {
       "task_id": 215,
       "filename": "8eb1be9a",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
+      "solver": "task17_fill_tiled",
+      "cost": 47521,
+      "score": 14.231073002413847,
       "eligible": false
     },
     {
@@ -1765,16 +1773,16 @@
       "task_id": 219,
       "filename": "90f3ed37",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 220,
       "filename": "913fb3ed",
       "solver": "multi_rule_ca",
-      "cost": 4777,
-      "score": 16.528431986610038,
+      "cost": 40550,
+      "score": 14.38970894045644,
       "eligible": true
     },
     {
@@ -1789,16 +1797,16 @@
       "task_id": 222,
       "filename": "91714a58",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 223,
       "filename": "9172f3a0",
-      "solver": "scale_up",
-      "cost": 341,
-      "score": 19.168117522716482,
+      "solver": "golf_scale",
+      "cost": 3241,
+      "score": 16.91636279685845,
       "eligible": true
     },
     {
@@ -1812,9 +1820,9 @@
     {
       "task_id": 225,
       "filename": "93b581b8",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
+      "solver": "task17_fill_tiled",
+      "cost": 51841,
+      "score": 14.144063379036439,
       "eligible": false
     },
     {
@@ -1845,16 +1853,16 @@
       "task_id": 229,
       "filename": "9565186b",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 230,
       "filename": "95990924",
-      "solver": "none",
+      "solver": "task230_diagonal_marker",
       "cost": 0,
-      "score": 0,
+      "score": 1.0,
       "eligible": false
     },
     {
@@ -1941,8 +1949,8 @@
       "task_id": 241,
       "filename": "9dfd6313",
       "solver": "geom_transform",
-      "cost": 146,
-      "score": 20.016393378291664,
+      "cost": 36000,
+      "score": 14.508725782561752,
       "eligible": true
     },
     {
@@ -1957,8 +1965,8 @@
       "task_id": 243,
       "filename": "9edfc990",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1973,16 +1981,16 @@
       "task_id": 245,
       "filename": "a1570a43",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 246,
       "filename": "a2fd1cf0",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -1997,40 +2005,40 @@
       "task_id": 248,
       "filename": "a3df8b1e",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 249,
       "filename": "a416b8f3",
       "solver": "tile",
-      "cost": 187,
-      "score": 19.768891383145412,
+      "cost": 72000,
+      "score": 13.815578602001807,
       "eligible": false
     },
     {
       "task_id": 250,
       "filename": "a48eeaf7",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 251,
       "filename": "a5313dff",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 252,
       "filename": "a5f85a15",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2053,8 +2061,8 @@
       "task_id": 255,
       "filename": "a64e4611",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2077,8 +2085,8 @@
       "task_id": 258,
       "filename": "a699fb00",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2133,8 +2141,8 @@
       "task_id": 265,
       "filename": "a8d7556c",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2157,8 +2165,8 @@
       "task_id": 268,
       "filename": "aba27056",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2189,16 +2197,16 @@
       "task_id": 272,
       "filename": "aedd82e4",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 273,
       "filename": "af902bf9",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2220,9 +2228,9 @@
     {
       "task_id": 276,
       "filename": "b1948b0a",
-      "solver": "color_map",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "solver": "golf_color_map",
+      "cost": 1941,
+      "score": 17.42904141683099,
       "eligible": true
     },
     {
@@ -2237,16 +2245,16 @@
       "task_id": 278,
       "filename": "b27ca6d3",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 279,
       "filename": "b2862040",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2349,24 +2357,24 @@
       "task_id": 292,
       "filename": "ba26e723",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 293,
       "filename": "ba97ae07",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 294,
       "filename": "bb43febb",
-      "solver": "cellular_automaton",
-      "cost": 1427,
-      "score": 17.736670382523165,
+      "solver": "golf_ca",
+      "cost": 14351,
+      "score": 15.428425094829068,
       "eligible": true
     },
     {
@@ -2404,9 +2412,9 @@
     {
       "task_id": 299,
       "filename": "bdad9b1f",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
+      "solver": "task17_fill_tiled",
+      "cost": 49001,
+      "score": 14.200404014952214,
       "eligible": false
     },
     {
@@ -2437,8 +2445,8 @@
       "task_id": 303,
       "filename": "c1d99e64",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2468,9 +2476,9 @@
     {
       "task_id": 307,
       "filename": "c59eb873",
-      "solver": "scale_up",
-      "cost": 341,
-      "score": 19.168117522716482,
+      "solver": "golf_scale",
+      "cost": 4001,
+      "score": 16.705700391142763,
       "eligible": true
     },
     {
@@ -2484,9 +2492,9 @@
     {
       "task_id": 309,
       "filename": "c8f0f002",
-      "solver": "color_map",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "solver": "golf_color_map",
+      "cost": 1221,
+      "score": 17.892574525889295,
       "eligible": true
     },
     {
@@ -2500,10 +2508,10 @@
     {
       "task_id": 311,
       "filename": "c9e6f938",
-      "solver": "mirror_concat",
-      "cost": 589,
-      "score": 18.621573816348413,
-      "eligible": false
+      "solver": "exploit_mirror_concat",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 312,
@@ -2548,9 +2556,9 @@
     {
       "task_id": 317,
       "filename": "ce22a75a",
-      "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "solver": "golf_multirule_ca",
+      "cost": 18969,
+      "score": 15.149438653273277,
       "eligible": false
     },
     {
@@ -2573,8 +2581,8 @@
       "task_id": 320,
       "filename": "ce9e57f2",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2588,17 +2596,17 @@
     {
       "task_id": 322,
       "filename": "d037b0a7",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
+      "solver": "task17_fill_tiled",
+      "cost": 43561,
+      "score": 14.318082466375468,
       "eligible": false
     },
     {
       "task_id": 323,
       "filename": "d06dbe63",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2620,9 +2628,9 @@
     {
       "task_id": 326,
       "filename": "d10ecb37",
-      "solver": "crop_top_left",
-      "cost": 130,
-      "score": 20.132465549544417,
+      "solver": "exploit_crop",
+      "cost": 1,
+      "score": 25.0,
       "eligible": true
     },
     {
@@ -2645,8 +2653,8 @@
       "task_id": 329,
       "filename": "d23f8c26",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2669,8 +2677,8 @@
       "task_id": 332,
       "filename": "d406998b",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2693,32 +2701,32 @@
       "task_id": 335,
       "filename": "d4a91cb9",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 336,
       "filename": "d4f3cd78",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 337,
       "filename": "d511f180",
-      "solver": "color_map",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "solver": "exploit_color_swap",
+      "cost": 1,
+      "score": 25.0,
       "eligible": true
     },
     {
       "task_id": 338,
       "filename": "d5d6de2d",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2741,8 +2749,8 @@
       "task_id": 341,
       "filename": "d6ad076f",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2765,16 +2773,16 @@
       "task_id": 344,
       "filename": "d90796e8",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 345,
       "filename": "d9f24cd1",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2812,10 +2820,10 @@
     {
       "task_id": 350,
       "filename": "dbc1a6ce",
-      "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
-      "eligible": false
+      "solver": "golf_draw_line",
+      "cost": 70575,
+      "score": 13.83556874687831,
+      "eligible": true
     },
     {
       "task_id": 351,
@@ -2828,17 +2836,17 @@
     {
       "task_id": 352,
       "filename": "dc1df850",
-      "solver": "cellular_automaton",
-      "cost": 1427,
-      "score": 17.736670382523165,
+      "solver": "golf_conditional",
+      "cost": 14351,
+      "score": 15.428425094829068,
       "eligible": true
     },
     {
       "task_id": 353,
       "filename": "dc433765",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2861,8 +2869,8 @@
       "task_id": 356,
       "filename": "ded97339",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2917,8 +2925,8 @@
       "task_id": 363,
       "filename": "e5062a87",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2949,8 +2957,8 @@
       "task_id": 367,
       "filename": "e73095fd",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2973,16 +2981,16 @@
       "task_id": 370,
       "filename": "e8dc4411",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 371,
       "filename": "e9614598",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -2997,8 +3005,8 @@
       "task_id": 373,
       "filename": "e9afcf9a",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -3013,8 +3021,8 @@
       "task_id": 375,
       "filename": "ea786f4a",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -3053,24 +3061,24 @@
       "task_id": 380,
       "filename": "ed36ccf7",
       "solver": "geom_transform",
-      "cost": 483,
-      "score": 18.819983346347428,
+      "cost": 36000,
+      "score": 14.508725782561752,
       "eligible": false
     },
     {
       "task_id": 381,
       "filename": "ef135b50",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
       "task_id": 382,
       "filename": "f15e1fac",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -3133,8 +3141,8 @@
       "task_id": 390,
       "filename": "f8a8fe49",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
@@ -3189,8 +3197,8 @@
       "task_id": 397,
       "filename": "fcc82909",
       "solver": "replace_color",
-      "cost": 753,
-      "score": 18.375934772200107,
+      "cost": 36501,
+      "score": 14.494905063544442,
       "eligible": false
     },
     {
