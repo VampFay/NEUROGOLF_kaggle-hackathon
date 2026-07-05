@@ -37,3 +37,39 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Security — never commit screenshots or credentials
+upload/
+.env
+
+# Tool results
+tool-results/
+
+# ARC-AGI training data (download separately)
+data/arc_agi/
+data/topics/
+data/arc_repo.zip
+
+# Intermediate results (keep only final)
+data/*_results.json
+!data/final_comprehensive_results.json
+
+# LLM solver intermediates
+data/llm_solvers/
+
+# Iterative/debug scripts
+scripts/direct_solvers_batch*
+scripts/direct_solvers_v[0-9].py
+scripts/body.pdf
+scripts/cover.*
+scripts/debug_*
+scripts/test_*
+scripts/fetch_topic*
+scripts/measure_onnx*
+scripts/inspect_*
+scripts/analyze_*
+scripts/audit_*
+
+# Duplicate/optimized submission
+download/submission_optimized.zip
+download/README.md
