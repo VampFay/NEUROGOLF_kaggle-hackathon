@@ -1,0 +1,380 @@
+{
+  "valid_count": 37,
+  "invalid_count": 0,
+  "total_score_original": 743.1408751144553,
+  "total_score_optimized": 743.1408751144553,
+  "total_size_original": 50966,
+  "total_size_optimized": 46250,
+  "results": [
+    {
+      "task_id": 1,
+      "filename": "task001.onnx",
+      "cost_orig": 10044,
+      "score_orig": 15.785269279722524,
+      "size_orig": 1100,
+      "cost_opt": 10044,
+      "score_opt": 15.785269279722524,
+      "size_opt": 999
+    },
+    {
+      "task_id": 2,
+      "filename": "task002.onnx",
+      "cost_orig": 272996,
+      "score_orig": 12.482787577954896,
+      "size_orig": 8121,
+      "cost_opt": 272996,
+      "score_opt": 12.482787577954896,
+      "size_opt": 6783
+    },
+    {
+      "task_id": 16,
+      "filename": "task016.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 291,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 288
+    },
+    {
+      "task_id": 39,
+      "filename": "task039.onnx",
+      "cost_orig": 3873,
+      "score_orig": 16.738215320485246,
+      "size_orig": 1467,
+      "cost_opt": 3873,
+      "score_opt": 16.738215320485246,
+      "size_opt": 1210
+    },
+    {
+      "task_id": 50,
+      "filename": "task050.onnx",
+      "cost_orig": 27732,
+      "score_orig": 14.76965773993762,
+      "size_orig": 1985,
+      "cost_opt": 27732,
+      "score_opt": 14.76965773993762,
+      "size_opt": 1633
+    },
+    {
+      "task_id": 53,
+      "filename": "task053.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 617,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 534
+    },
+    {
+      "task_id": 67,
+      "filename": "task067.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 228,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 223
+    },
+    {
+      "task_id": 83,
+      "filename": "task083.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 1356,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 1322
+    },
+    {
+      "task_id": 87,
+      "filename": "task087.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 1007,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 969
+    },
+    {
+      "task_id": 95,
+      "filename": "task095.onnx",
+      "cost_orig": 11729,
+      "score_orig": 15.630180313478496,
+      "size_orig": 1448,
+      "cost_opt": 11729,
+      "score_opt": 15.630180313478496,
+      "size_opt": 1445
+    },
+    {
+      "task_id": 116,
+      "filename": "task116.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 1022,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 846
+    },
+    {
+      "task_id": 130,
+      "filename": "task130.onnx",
+      "cost_orig": 861,
+      "score_orig": 18.24190549557227,
+      "size_orig": 1011,
+      "cost_opt": 861,
+      "score_opt": 18.24190549557227,
+      "size_opt": 1001
+    },
+    {
+      "task_id": 135,
+      "filename": "task135.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 363,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 364
+    },
+    {
+      "task_id": 140,
+      "filename": "task140.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 1007,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 969
+    },
+    {
+      "task_id": 142,
+      "filename": "task142.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 1356,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 1322
+    },
+    {
+      "task_id": 147,
+      "filename": "task147.onnx",
+      "cost_orig": 4691,
+      "score_orig": 16.54659894167154,
+      "size_orig": 1697,
+      "cost_opt": 4691,
+      "score_opt": 16.54659894167154,
+      "size_opt": 1484
+    },
+    {
+      "task_id": 152,
+      "filename": "task152.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 1356,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 1322
+    },
+    {
+      "task_id": 164,
+      "filename": "task164.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 832,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 799
+    },
+    {
+      "task_id": 172,
+      "filename": "task172.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 832,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 799
+    },
+    {
+      "task_id": 179,
+      "filename": "task179.onnx",
+      "cost_orig": 361,
+      "score_orig": 19.11112204166712,
+      "size_orig": 583,
+      "cost_opt": 361,
+      "score_opt": 19.11112204166712,
+      "size_opt": 546
+    },
+    {
+      "task_id": 188,
+      "filename": "task188.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 228,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 223
+    },
+    {
+      "task_id": 210,
+      "filename": "task210.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 832,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 799
+    },
+    {
+      "task_id": 220,
+      "filename": "task220.onnx",
+      "cost_orig": 40550,
+      "score_orig": 14.38970894045644,
+      "size_orig": 3840,
+      "cost_opt": 40550,
+      "score_opt": 14.38970894045644,
+      "size_opt": 3844
+    },
+    {
+      "task_id": 223,
+      "filename": "task223.onnx",
+      "cost_orig": 3241,
+      "score_orig": 16.91636279685845,
+      "size_orig": 879,
+      "cost_opt": 3241,
+      "score_opt": 16.91636279685845,
+      "size_opt": 770
+    },
+    {
+      "task_id": 241,
+      "filename": "task241.onnx",
+      "cost_orig": 36000,
+      "score_orig": 14.508725782561752,
+      "size_orig": 127,
+      "cost_opt": 36000,
+      "score_opt": 14.508725782561752,
+      "size_opt": 127
+    },
+    {
+      "task_id": 251,
+      "filename": "task251.onnx",
+      "cost_orig": 70756,
+      "score_orig": 13.833007382436602,
+      "size_orig": 5257,
+      "cost_opt": 70756,
+      "score_opt": 13.833007382436602,
+      "size_opt": 4303
+    },
+    {
+      "task_id": 276,
+      "filename": "task276.onnx",
+      "cost_orig": 1941,
+      "score_orig": 17.42904141683099,
+      "size_orig": 984,
+      "cost_opt": 1941,
+      "score_opt": 17.42904141683099,
+      "size_opt": 958
+    },
+    {
+      "task_id": 294,
+      "filename": "task294.onnx",
+      "cost_orig": 14351,
+      "score_orig": 15.428425094829068,
+      "size_orig": 1448,
+      "cost_opt": 14351,
+      "score_opt": 15.428425094829068,
+      "size_opt": 1445
+    },
+    {
+      "task_id": 307,
+      "filename": "task307.onnx",
+      "cost_orig": 4001,
+      "score_orig": 16.705700391142763,
+      "size_orig": 879,
+      "cost_opt": 4001,
+      "score_opt": 16.705700391142763,
+      "size_opt": 770
+    },
+    {
+      "task_id": 309,
+      "filename": "task309.onnx",
+      "cost_orig": 1221,
+      "score_orig": 17.892574525889295,
+      "size_orig": 984,
+      "cost_opt": 1221,
+      "score_opt": 17.892574525889295,
+      "size_opt": 958
+    },
+    {
+      "task_id": 311,
+      "filename": "task311.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 832,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 799
+    },
+    {
+      "task_id": 317,
+      "filename": "task317.onnx",
+      "cost_orig": 113951,
+      "score_orig": 13.356476189585827,
+      "size_orig": 1801,
+      "cost_opt": 113951,
+      "score_opt": 13.356476189585827,
+      "size_opt": 1795
+    },
+    {
+      "task_id": 326,
+      "filename": "task326.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 363,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 364
+    },
+    {
+      "task_id": 337,
+      "filename": "task337.onnx",
+      "cost_orig": 1,
+      "score_orig": 25.0,
+      "size_orig": 291,
+      "cost_opt": 1,
+      "score_opt": 25.0,
+      "size_opt": 288
+    },
+    {
+      "task_id": 350,
+      "filename": "task350.onnx",
+      "cost_orig": 70575,
+      "score_orig": 13.83556874687831,
+      "size_orig": 2045,
+      "cost_opt": 70575,
+      "score_opt": 13.83556874687831,
+      "size_opt": 1693
+    },
+    {
+      "task_id": 352,
+      "filename": "task352.onnx",
+      "cost_orig": 14351,
+      "score_orig": 15.428425094829068,
+      "size_orig": 1697,
+      "cost_opt": 14351,
+      "score_opt": 15.428425094829068,
+      "size_opt": 1484
+    },
+    {
+      "task_id": 380,
+      "filename": "task380.onnx",
+      "cost_orig": 361,
+      "score_orig": 19.11112204166712,
+      "size_orig": 800,
+      "cost_opt": 361,
+      "score_opt": 19.11112204166712,
+      "size_opt": 772
+    }
+  ]
+}
