@@ -1,2 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Skills directory (not part of NeuroGolf project)
 skills/
-node_modules/
+
+# ONNX model files (large, regenerable)
+*.onnx
+
+# Data files (large, not needed in repo)
+data/arc_agi/
+data/arc_repo.zip
+data/topics/
+data/discussion_*.json
+data/leaderboard_*.json
+data/competition_*.json
+data/rules_*.json
+data/comp_*.json
+data/codebase_audit.json
+
+# Logs and temp
+*.log
+/tmp/
+.tool-results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
