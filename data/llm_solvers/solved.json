@@ -1,0 +1,368 @@
+{
+  "solved": [
+    300,
+    263
+  ],
+  "failed": [
+    {
+      "task_id": 4,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 3,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 5,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 7,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 6,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 8,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 9,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 10,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 11,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 13,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 12,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 14,
+      "error": "pair 0: shape mismatch (21, 21) vs (10, 10)"
+    },
+    {
+      "task_id": 17,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 18,
+      "error": "pair 0: shape mismatch (11, 16) vs (14, 18)"
+    },
+    {
+      "task_id": 19,
+      "error": "pair 0: shape mismatch (1, 1) vs (4, 8)"
+    },
+    {
+      "task_id": 20,
+      "error": "pair 0: shape mismatch (5, 5) vs (10, 10)"
+    },
+    {
+      "task_id": 21,
+      "error": "pair 0: shape mismatch (15, 15) vs (2, 4)"
+    },
+    {
+      "task_id": 22,
+      "error": "pair 0: shape mismatch (8, 6) vs (3, 3)"
+    },
+    {
+      "task_id": 23,
+      "error": "pair 0: shape mismatch (6, 6) vs (9, 11)"
+    },
+    {
+      "task_id": 24,
+      "error": "pair 0: shape mismatch (5, 6) vs (9, 9)"
+    },
+    {
+      "task_id": 25,
+      "error": "pair 0: shape mismatch (18, 16) vs (18, 19)"
+    },
+    {
+      "task_id": 26,
+      "error": "pair 0: shape mismatch (5, 7) vs (5, 3)"
+    },
+    {
+      "task_id": 27,
+      "error": "pair 0: shape mismatch (8, 6) vs (10, 10)"
+    },
+    {
+      "task_id": 28,
+      "error": "pair 0: shape mismatch (6, 6) vs (10, 10)"
+    },
+    {
+      "task_id": 29,
+      "error": "pair 0: shape mismatch (23, 21) vs (6, 8)"
+    },
+    {
+      "task_id": 30,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 15,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 31,
+      "error": "pair 0: shape mismatch (10, 12) vs (4, 4)"
+    },
+    {
+      "task_id": 32,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 33,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 34,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 35,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 36,
+      "error": "pair 0: shape mismatch (30, 30) vs (5, 3)"
+    },
+    {
+      "task_id": 37,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 38,
+      "error": "pair 0: shape mismatch (9, 9) vs (1, 5)"
+    },
+    {
+      "task_id": 40,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 42,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 41,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 43,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 44,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 45,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 46,
+      "error": "pair 0: shape mismatch (3, 9) vs (3, 7)"
+    },
+    {
+      "task_id": 47,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 48,
+      "error": "pair 0: shape mismatch (5, 5) vs (1, 1)"
+    },
+    {
+      "task_id": 49,
+      "error": "pair 0: shape mismatch (10, 10) vs (3, 3)"
+    },
+    {
+      "task_id": 51,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 52,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 54,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 55,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 56,
+      "error": "pair 0: shape mismatch (3, 3) vs (1, 1)"
+    },
+    {
+      "task_id": 57,
+      "error": "pair 0: shape mismatch (8, 8) vs (3, 6)"
+    },
+    {
+      "task_id": 58,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 59,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 60,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 61,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 62,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 63,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 64,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 65,
+      "error": "pair 0: shape mismatch (5, 5) vs (2, 2)"
+    },
+    {
+      "task_id": 66,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 68,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 69,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 70,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 71,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 73,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 72,
+      "error": "pair 0: shape mismatch (13, 5) vs (6, 5)"
+    },
+    {
+      "task_id": 74,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 75,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 76,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 77,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 78,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 79,
+      "error": "pair 0: shape mismatch (14, 14) vs (3, 3)"
+    },
+    {
+      "task_id": 81,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 80,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 82,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 83,
+      "error": "pair 0: shape mismatch (3, 4) vs (6, 8)"
+    },
+    {
+      "task_id": 84,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 85,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 86,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 88,
+      "error": "pair 0: shape mismatch (7, 7) vs (3, 3)"
+    },
+    {
+      "task_id": 89,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 90,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 91,
+      "error": "pair 0: shape mismatch (9, 9) vs (5, 5)"
+    },
+    {
+      "task_id": 92,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 94,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 93,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 97,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 96,
+      "error": "pair 0: shape mismatch (13, 17) vs (7, 7)"
+    },
+    {
+      "task_id": 99,
+      "error": "pair 0: value mismatch"
+    },
+    {
+      "task_id": 98,
+      "error": "pair 0: value mismatch"
+    }
+  ]
+}
