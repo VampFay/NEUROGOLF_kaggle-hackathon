@@ -1,9 +1,9 @@
 {
   "summary": {
-    "solved": 30,
+    "solved": 32,
     "total": 400,
-    "total_score": 592.4313713876302,
-    "elapsed_sec": 71.00890302658081,
+    "total_score": 636.5424934292973,
+    "elapsed_sec": 70.90495920181274,
     "breakdown": {
       "kronecker": 1,
       "golf_flood_fill": 2,
@@ -12,8 +12,10 @@
       "golf_draw_line": 2,
       "golf_shift": 1,
       "crop_top_left": 2,
-      "universal_brute_force": 4,
+      "direct_dihedral": 4,
       "golf_ca": 2,
+      "universal_brute_force": 1,
+      "exploit_crop_any": 1,
       "golf_conditional": 2,
       "exploit_mirror_concat": 4,
       "multi_rule_ca": 1,
@@ -23,7 +25,8 @@
       "exploit_crop": 1
     },
     "output_path": "/home/z/my-project/download/submission.zip",
-    "file_size_bytes": 16755
+    "file_size_bytes": 17315,
+    "pipeline": "aggressive"
   },
   "results": [
     {
@@ -717,7 +720,7 @@
     {
       "task_id": 87,
       "filename": "3c9b0459",
-      "solver": "universal_brute_force",
+      "solver": "direct_dihedral",
       "cost": 1,
       "score": 25.0,
       "eligible": true
@@ -1101,10 +1104,10 @@
     {
       "task_id": 135,
       "filename": "5bd6f4ac",
-      "solver": "none",
-      "cost": 0,
-      "score": 0,
-      "eligible": false
+      "solver": "exploit_crop_any",
+      "cost": 1,
+      "score": 25.0,
+      "eligible": true
     },
     {
       "task_id": 136,
@@ -1141,7 +1144,7 @@
     {
       "task_id": 140,
       "filename": "6150a2bd",
-      "solver": "universal_brute_force",
+      "solver": "direct_dihedral",
       "cost": 1,
       "score": 25.0,
       "eligible": true
@@ -1453,7 +1456,7 @@
     {
       "task_id": 179,
       "filename": "74dd1130",
-      "solver": "universal_brute_force",
+      "solver": "direct_dihedral",
       "cost": 361,
       "score": 19.11112204166712,
       "eligible": true
@@ -3061,10 +3064,10 @@
     {
       "task_id": 380,
       "filename": "ed36ccf7",
-      "solver": "geom_transform",
-      "cost": 36000,
-      "score": 14.508725782561752,
-      "eligible": false
+      "solver": "direct_dihedral",
+      "cost": 361,
+      "score": 19.11112204166712,
+      "eligible": true
     },
     {
       "task_id": 381,
